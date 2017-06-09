@@ -23,7 +23,7 @@
 			<plugin>
 				<groupId>com.axonivy.ivy.ci</groupId>
 				<artifactId>project-build-plugin</artifactId>
-				<version>6.1.0</version>
+				<version>6.5.0</version>
 				<executions>
 					<execution>
 						<id>get.axonivy.classes</id>
