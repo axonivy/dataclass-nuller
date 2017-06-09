@@ -35,6 +35,7 @@
 				</executions>
 				<configuration>
 					<engineDirectory>${engine.dir}</engineDirectory>
+                    <ivyVersion>[6.5.0,]</ivyVersion>
 				</configuration>
 			</plugin>
 		</plugins>
