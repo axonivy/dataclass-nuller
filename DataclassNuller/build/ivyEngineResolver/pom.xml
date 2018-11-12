@@ -15,7 +15,7 @@
 	<properties>
 		<engine.dir>${project.build.directory}/ivyEngine</engine.dir>
 		<engine.lib.dir>${engine.dir}/lib/ivy</engine.lib.dir>
-		<ivy.version>6.1.0</ivy.version>
+		<ivy.version>6.5.0</ivy.version>
 	</properties>
 	
 	<build>
@@ -35,7 +35,7 @@
 				</executions>
 				<configuration>
 					<engineDirectory>${engine.dir}</engineDirectory>
-                    <ivyVersion>[6.5.0,]</ivyVersion>
+                    <ivyVersion>${ivy.version}</ivyVersion>
 				</configuration>
 			</plugin>
 		</plugins>

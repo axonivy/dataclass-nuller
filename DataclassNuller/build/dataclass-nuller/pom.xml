@@ -47,6 +47,12 @@
 			<version>1.7.7</version>
 			<scope>test</scope>
 		</dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jul-to-slf4j</artifactId>
+            <version>1.7.7</version>
+            <scope>test</scope>
+        </dependency>
 		<dependency>
 			<groupId>ch.ivyteam.ivy</groupId>
 			<artifactId>ch.ivyteam.util</artifactId>
