@@ -17,6 +17,7 @@ pipeline {
           script {
             maven cmd:'-f DataclassNuller/pom.xml clean install'
             archiveArtifacts 'DataclassNuller/build/dataclass-nuller/target/*.jar'
+            junit '**/target/surefire-reports/**/*.xml' 
           }
       }
     }
