@@ -15,7 +15,7 @@ pipeline {
     stage('build') {
       steps {
           script {
-            maven cmd:'clean install'
+            maven cmd:'-f DataclassNuller/pom.xml clean install'
             archiveArtifacts 'DataclassNuller/build/dataclass-nuller/target/*.jar'
           }
       }
